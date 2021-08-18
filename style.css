@@ -61,7 +61,7 @@ form.login-form input {
     color: #000;
 }
 
-form.login-form button {
+button {
     width: 25%;
     padding: 10px;
     border: 0;
