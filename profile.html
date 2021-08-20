@@ -14,28 +14,30 @@
     <main class="full-width">
         <div class="trim-width profile-model">
             <div class="profile-box">
-                <div class="row">
+                <div class="row acc-balance">
                     <div class="acc-details">
-                        <h3>Total Diposit</h3>
-                        <p><span>$</span>100</p>
+                        <h3>Total Diposite</h3>
+                        <p>$<span id="acc-dep">00</span></p>
                     </div>
                     <div class="acc-details">
                         <h3>Total Withdrawn</h3>
-                        <p><span>$</span>100</p>
+                        <p>$<span id="acc-with">00</span></p>
                     </div>
                     <div class="acc-details">
                         <h3>Total Balance</h3>
-                        <p><span>$</span>100</p>
+                        <p>$<span id="acc-bal">00</span></p>
                     </div>
                 </div>
                 <div class="row dep-with" style="margin-top: 50px;">
                     <div class="acc-details">
-                        <h3>Diposit</h3>
-                        <input type="text" id="deposit">
+                        <h3>Diposite</h3>
+                        <input type="number" id="deposit">
+                        <button id="dep-btn">Deposite</button>
                     </div>
                     <div class="acc-details">
                         <h3>Withdraw</h3>
-                        <input type="text" id="withdrawn">
+                        <input type="number" id="withdraw">
+                        <button id="with-btn">Withdraw</button>
                     </div>
                 </div>
             </div>
